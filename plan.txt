@@ -1,0 +1,43 @@
+Vending machine
+
+-Sells 9 different items
+- there is a line at the machine
+- "is sentient" --> gives out the orders
+-
+
+Classes:
+
+Person:
+  - each has different amount of money
+  - selects items
+  - gets candy
+  - methods:
+      setMoney - sets the amount of money a person has, also minises the money when they spend it
+      -getMoney - checks how much money they have (they can buy items until they cant afford them)
+
+  - variables :
+      - amount of money
+      -
+
+Vending machine
+ - has items
+ - dispenses change
+ - runs out of items
+ - maybe a map of all its items
+ - ass its runs out when someone clicks the item, it minus' one
+ - checks to see if it has the item by looping, if not the person gets in back of the line?
+ - switch statement for which food they want, A1, A2, A3, B1 etc
+
+ The Line
+ - could be its own class object
+ - is an array or queue
+ - methods like rotate queue
+
+ MONEY - could be krinkly or not?
+
+ Or the FOOD could be the main items class inside the machine
+ FOOD --> interface or abstract class
+      - some items have chance to get stuck
+      - some items cost more
+      - each food inherits from the abstract class "food"
+      - liquid / solid
