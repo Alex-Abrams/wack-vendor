@@ -1,7 +1,17 @@
-public class Food extends Refreshments {
+public class Food extends Refreshment {
+
+  public Food(String brand, int price, int quantity, String position) {
+    super(brand, price, quantity, position);
+  }
+
 
   @Override
-  void getStuck() {
-    System.out.println("Your tasty " + itemName "got stuck!")
+  public void stuck() {
+    System.out.println(brand + " got stuck!!");
+  }
+
+  @Override
+  public void receiveRefreshment() {
+    System.out.println("Plunk! " + brand + " is ready!");
   }
 }

@@ -1,22 +1,20 @@
-import java.util.ArrayList;
-
 public class Person {
-  private double money;
+  private int money;
   private String name;
-  // private ArrayList<String> items;
 
-  public Person(double money, String name) {
+
+  public Person(int money, String name) {
     this.money = money;
     this.name = name;
   }
 
   // setting money can change it
-  public void setMoney(double money, double moneySpent) {
+  public void setMoney(int money, int moneySpent) {
     this.money = money - moneySpent;
   }
 
   //getter for checking mamount of money
-  public double getMoney() {
+  public int getMoney() {
     return money;
   }
 
@@ -27,10 +25,5 @@ public class Person {
   public String getName() {
     return name;
   }
-
-  // public void setItems(ArrayList<String> items, String newItem) {
-  //   this.items = items;
-  //
-  // }
 
 }

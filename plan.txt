@@ -3,7 +3,7 @@ Vending machine
 -Sells 9 different items
 - there is a line at the machine
 - "is sentient" --> gives out the orders
--
+- Array offood objects
 
 Classes:
 
