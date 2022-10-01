@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Main {
+
   public static void main(String[] args) {
 
     Person david = new Person(4, "david");
@@ -37,10 +38,13 @@ public class Main {
     arrayFood.add(sardines);
 
     VendingMachine vendor = new VendingMachine(arrayFood, arrayDrink);
-
-    vendor.vendingMachineScanner(peopleLine);
-
-    
+    try {
+      vendor.vendingMachineScanner(peopleLine);
+    }catch(IllegalArgumentException e) {
+      System.out.println("The program failed to load");
+    } catch(Exception e) {
+      System.out.println(e.getMessage());
+    };
 
 
   }
