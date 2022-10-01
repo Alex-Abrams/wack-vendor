@@ -9,8 +9,8 @@ public class Person {
   }
 
   // setting money can change it
-  public void setMoney(int money, int moneySpent) {
-    this.money = money - moneySpent;
+  public void setMoney(int moneySpent) {
+    this.money = moneySpent;
   }
 
   //getter for checking mamount of money

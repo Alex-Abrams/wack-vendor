@@ -7,7 +7,7 @@ public class Food extends Refreshment {
 
   @Override
   public void stuck() {
-    System.out.println(brand + " got stuck!!");
+    System.out.println(brand + " got stuck!! OOPS!");
   }
 
   @Override

@@ -1,9 +1,9 @@
 public abstract class Refreshment {
 
-   private String brand;
-   private int price;
-   private int quantity;
-   private String position;
+    String brand;
+    int price;
+    int quantity;
+    String position;
 
   public Refreshment(String brand, int price, int quantity, String position) {
     this.brand = brand;
